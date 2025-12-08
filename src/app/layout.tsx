@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Barlow, Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import {ClerkProvider} from "@clerk/nextjs"
+import {ClerkProvider, SignIn} from "@clerk/nextjs"
 
 const interFont = Inter({ subsets: ['latin'] });
 const barlowFont = Barlow({
